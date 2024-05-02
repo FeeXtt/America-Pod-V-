@@ -1,9 +1,7 @@
 import { useState } from 'react'
-import './App.css'
+import AppRoutes from './pages/AppRoutes'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
     <>
       <AppRoutes />
@@ -11,4 +9,4 @@ function App() {
   )
 }
 
-export default App
+
