@@ -15,10 +15,12 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
+
+
 const drawerWidth = 240;
 const navItems = ['Home', 'About', 'Contact'];
 
-function NavBar(props) {
+export default function NavBar(props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
@@ -29,7 +31,11 @@ function NavBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        MUI
+
+      
+
+        Restaurace U Měšťáků
+        <img src="zmrde.jpg" alt="Description" />
       </Typography>
       <Divider />
       <List>
@@ -49,7 +55,7 @@ function NavBar(props) {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-      <AppBar component="nav">
+      <AppBar sx={{background:"black"}} component="nav">
         <Toolbar>
           <IconButton
             color="inherit"
@@ -65,7 +71,8 @@ function NavBar(props) {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
-            MUI
+            Restaurace U Měšťáků
+
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
@@ -93,22 +100,6 @@ function NavBar(props) {
           {drawer}
         </Drawer>
       </nav>
-      <Box component="main" sx={{ p: 3 }}>
-        <Toolbar />
-        <Typography>
-          penis cum la penis la cum penis penis cum la penis cum cum la penis
-        </Typography>
-      </Box>
     </Box>
   );
 }
-
-DrawerAppBar.propTypes = {
-  /**
-   * Injected by the documentation to work in an iframe.
-   * You won't need it on your project.
-   */
-  window: PropTypes.func,
-};
-
-export default DrawerAppBar;
