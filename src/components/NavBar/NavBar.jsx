@@ -1,105 +1,41 @@
-import * as React from 'react';
-import PropTypes from 'prop-types';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import CssBaseline from '@mui/material/CssBaseline';
-import Divider from '@mui/material/Divider';
-import Drawer from '@mui/material/Drawer';
-import IconButton from '@mui/material/IconButton';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemText from '@mui/material/ListItemText';
-import MenuIcon from '@mui/icons-material/Menu';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
+import React, { useState, useEffect } from 'react';
+import 'tailwindcss/tailwind.css'; // Ensure to import Tailwind CSS
+import AmericaLogo from "./AmericaLogo.png";
+import PodVeziLogo from "./PodVeziLogo.png";
+const navItems = ['ČLÁNKY', 'VIDEA', 'DATABÁZE', 'DISKUZE'];
 
+export default function NavBar() {
+  const [scrollY, setScrollY] = useState(0);
 
-
-const drawerWidth = 240;
-const navItems = ['Home', 'About', 'Contact'];
-
-export default function NavBar(props) {
-  const { window } = props;
-  const [mobileOpen, setMobileOpen] = React.useState(false);
-
-  const handleDrawerToggle = () => {
-    setMobileOpen((prevState) => !prevState);
+  const handleScroll = () => {
+    setScrollY(window.scrollY);
   };
 
-  const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
-      
-
-        Restaurace U Měšťáků
-        <img src="zmrde.jpg" alt="Description" />
-      </Typography>
-      <Divider />
-      <List>
-        {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center' }}>
-              <ListItemText primary={item} />
-            </ListItemButton>
-          </ListItem>
-        ))}
-      </List>
-    </Box>
-  );
-
-  const container = window !== undefined ? () => window().document.body : undefined;
+  const logoStyle = {
+    transform: `translateY(${Math.max(-116, 100 - scrollY)}px)`, // Slide down when at top, slide up when scrolling
+    transition: 'transform 0.2s ease-out', // Smooth transition for the movement
+  };
 
   return (
-    <Box sx={{ display: 'flex' }}>
-      <CssBaseline />
-      <AppBar sx={{background:"black"}} component="nav">
-        <Toolbar>
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            edge="start"
-            onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: 'none' } }}
-          >
-            <MenuIcon />
-          </IconButton>
-          <Typography
-            variant="h6"
-            component="div"
-            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
-          >
-            Restaurace U Měšťáků
-
-          </Typography>
-          <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-            {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#fff' }}>
-                {item}
-              </Button>
-            ))}
-          </Box>
-        </Toolbar>
-      </AppBar>
-      <nav>
-        <Drawer
-          container={container}
-          variant="temporary"
-          open={mobileOpen}
-          onClose={handleDrawerToggle}
-          ModalProps={{
-            keepMounted: true, // Better open performance on mobile.
-          }}
-          sx={{
-            display: { xs: 'block', sm: 'none' },
-            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
-          }}
-        >
-          {drawer}
-        </Drawer>
-      </nav>
-    </Box>
+    <nav className="bg-red-900 text-white sticky top-0 z-10">
+      <div className="flex items-center justify-between max-w-screen-xl mx-auto p-6 relative">
+        <div className="absolute left-0 m-6 bg-red-900 " style={logoStyle}>
+          <img src={AmericaLogo} alt="America Logo" className="max-h-60 " />
+          <img src={PodVeziLogo} alt="America Logo" className="max-w-60 -mt-1 mb-2" />
+        </div>
+        <ul className="flex space-x-8 ml-auto">
+          {navItems.map((item, index) => (
+            <li key={index} className="text-lg ">{item}</li>
+          ))}
+        </ul>
+      </div>
+    </nav>
   );
 }
