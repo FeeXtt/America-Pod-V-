@@ -1,7 +1,9 @@
+import Map from './Map/Map';
+
 export default function Footer() {
   return (
     <>
-      <footer className="bg-slate-950 p-6 text-white text-center sm-full mt-auto">
+      <footer className="bg-slate-700 p-6 text-white text-center sm-full mt-auto">
 
         <div className="lg:flex">
         <div className="lg:w-3/5 w-full sm:flex gap-4 border-r border-white ">
@@ -25,7 +27,7 @@ export default function Footer() {
         </div>
         
         <div className="lg:w-2/5 w-full ">
-          <p className="bold">© 2020 Your Company, Inc. All rights reserved.</p>
+         <Map/>
         </div>
 
         </div>

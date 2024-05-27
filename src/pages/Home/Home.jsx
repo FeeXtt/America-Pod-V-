@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <body className = "flex flex-col min-h-screen">
         <NavBar />
-        <ImageCard src={BugerImg} />
+        <ImageCard src={BugerImg} h="" />
         
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta aliquid doloribus error provident. Esse omnis ab neque ullam veniam sapiente delectus officia voluptas atque quae earum facilis quis, ducimus obcaecati.

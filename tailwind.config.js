@@ -7,6 +7,9 @@ export default {
     extend: {
       height: {
         '128': '32rem',
+      },
+      maxHeight: {
+        '128': '32rem',
       }
     },
     fontFamily: {
