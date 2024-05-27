@@ -4,8 +4,14 @@ export default {
   "./src/**/*.{js,ts,jsx,tsx}",
   "./index.html",],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        '128': '32rem',
+      }
+    },
+    fontFamily: {
+      'notable': ["Notable"],
+    },
   },
   plugins: [],
 }
-
