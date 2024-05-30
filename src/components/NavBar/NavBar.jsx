@@ -65,8 +65,8 @@ export default function NavBar() {
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
             <div
-              className="CROSS-ICON absolute top-0 right-0 m-8 cursor-pointer hover:text-orange-100"
-              onClick={() => setIsNavOpen(false)}
+              className="CROSS-ICON absolute top-0 right-0 px-8 py-8"
+              onClick={() => setIsNavOpen(false)} // change isNavOpen state to false to close the menu
             >
               <svg
                 className="h-8 w-8 "
@@ -83,13 +83,17 @@ export default function NavBar() {
 
             </div>
 
-
-            <ul className="MENU-MOBILE-OPEN flex flex-col items-center justify-between ">
-            {navItems.map((item, index) => (
-                <li key={index} className="my-10 text-3xl hover:text-orange-100 border-b pb-1 border-white hover:border-orange-100"><Link to={item[1]}>{item[0]}</Link></li>
-              ))}
-          </ul>
-
+            <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between bg-red-900 ">
+              <li className="border-b border-gray-400 my-8 uppercase">
+                <a href="/about">About</a>
+              </li>
+              <li className="border-b border-gray-400 my-8 uppercase">
+                <a href="/portfolio">Portfolio</a>
+              </li>
+              <li className="border-b border-gray-400 my-8 uppercase">
+                <a href="/contact">Contact</a>
+              </li>
+            </ul>
           </div>
         </div>
         
