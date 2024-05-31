@@ -30,10 +30,10 @@ export default function NavBar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <nav className="font-notable bg-red-900 text-white sticky top-0 z-50">
+    <nav className="font-notable bg-red-900 sticky top-0 z-50">
       <div className="md:flex items-center justify-between max-w-screen-xl mx-auto p-6">
 
-          <div className="fixed bg-red-900 invisible md:visible" style={logoStyle}>
+          <div className="fixed rounded-xl bg-red-900 invisible md:visible" style={logoStyle}>
             <img src={AmericaLogo} alt="America Logo" className="max-h-60 " />
             <img src={PodVeziLogo} alt="America Logo" className="max-w-60 -mt-1 mb-2" />
           </div>
@@ -65,10 +65,8 @@ export default function NavBar() {
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
             <div
-
               className="CROSS-ICON absolute top-0 right-0 m-8 cursor-pointer hover:text-orange-100"
               onClick={() => setIsNavOpen(false)}
-
             >
               <svg
                 className="h-8 w-8 ">
@@ -77,8 +75,6 @@ export default function NavBar() {
               </svg>
 
             </div>
-
-
 
             <ul className="MENU-MOBILE-OPEN flex flex-col items-center justify-between ">
             {navItems.map((item, index) => (

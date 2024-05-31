@@ -5,8 +5,6 @@ import L from 'leaflet';
 
 const position = [50.4125494825189, 14.903224052960049];
 
-// Fix for default marker icon issue with Webpack
-
 function Map() {
   return (
     <div className="h-56 w-full">

@@ -16,7 +16,7 @@ export default {
       },
       maxHeight: {
         '128': '32rem',
-      }
+      },
     },
     fontFamily: {
       'notable': ["Notable"],
