@@ -1,20 +1,15 @@
 import * as React from "react";
 import "../../index.css";
+import ImageCard from "../../components/ImageCard/ImageCard";
+import BugerImg from "/src/pages/Home/burger.jpg"
 
-export default function InfoCard() {
+export default function InfoCard(props) {
   return (
     <>
-      <div id="menu" class="w3-padding-top-64">
-        <div class="w3-row">
-          <div class="w3-col l6 m6 w3-padding-large"></div>
-          <div class="w3-col l6 m6 w3-padding-large">
-            <img
-              src="img_tablesetting.jpg"
-              class="w3-round w3-image w3-opacity-min"
-              alt="Menu"
-              style="width:100%"
-            />
-          </div>
+      <div className={`${props.width}`}>
+        <ImageCard src={BugerImg} width="w-full" />
+        <div className={`${props.color} text-center rounded-b-xl p-2`}>
+          hello
         </div>
       </div>
     </>

@@ -1,8 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-  "./src/**/*.{js,ts,jsx,tsx}",
-  "./index.html",],
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./index.html",
+    "./node_modules/flowbite/**/*.js",
+  ],
   theme: {
     extend: {
       height: {
@@ -16,5 +18,7 @@ export default {
       'notable': ["Notable"],
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin'),
+  ],
 }
