@@ -76,7 +76,6 @@ export default function NavBar() {
 
             </div>
 
-
             <ul className="MENU-MOBILE-OPEN flex flex-col items-center justify-between ">
             {navItems.map((item, index) => (
                 <li key={index} className="my-10 text-3xl hover:text-orange-100 border-b pb-1 border-white hover:border-orange-100"><Link to={item[1]}>{item[0]}</Link></li>
