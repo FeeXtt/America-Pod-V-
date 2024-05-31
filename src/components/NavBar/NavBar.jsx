@@ -65,8 +65,10 @@ export default function NavBar() {
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
             <div
+
               className="CROSS-ICON absolute top-0 right-0 m-8 cursor-pointer hover:text-orange-100"
               onClick={() => setIsNavOpen(false)}
+
             >
               <svg
                 className="h-8 w-8 ">
@@ -75,6 +77,7 @@ export default function NavBar() {
               </svg>
 
             </div>
+
 
 
             <ul className="MENU-MOBILE-OPEN flex flex-col items-center justify-between ">
