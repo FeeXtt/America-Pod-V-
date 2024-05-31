@@ -4,11 +4,13 @@
 
 export default {
   content: [
-  "./src/**/*.{js,ts,jsx,tsx}",
-  "./index.html",
-  
+
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./index.html",
+    "./node_modules/flowbite/**/*.js",
   "./node_modules/tw-elements-react/dist/js/**/*.js"],
   
+
   theme: {
     extend: {
       height: {
@@ -22,9 +24,10 @@ export default {
       'notable': ["Notable"],
     },
   },
+
   darkMode: "class",
   plugins: [
-    
+    require('flowbite/plugin'),
     require("tw-elements-react/dist/plugin.cjs"),
   ],
 }

@@ -9,6 +9,7 @@ export default function ImageCard(props) {
   }, []);
 
   return (
+
     <div className="relative md:bg-black">
       <img
         className={`object-cover md:opacity-60 w-full ${props.h}`}
@@ -25,6 +26,7 @@ export default function ImageCard(props) {
           </div>
         </div>
       </div>
+
     </div>
   );
 }

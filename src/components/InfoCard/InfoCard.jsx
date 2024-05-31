@@ -1,10 +1,13 @@
 import * as React from "react";
 import "../../index.css";
+
 import { TECarousel, TECarouselItem } from "tw-elements-react";
 
-export default function InfoCard() {
+
+export default function InfoCard(props) {
   return (
     <>
+
       <div className="lg:w-1/2 sm:w-full">
         <div className="p-8 ">
           <div className="w-full bg-red-900   text-center align-text-middle">
@@ -46,6 +49,7 @@ export default function InfoCard() {
               </div>
             </TECarousel>
           </div>
+
         </div>
       </div>
     </>

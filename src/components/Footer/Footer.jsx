@@ -1,12 +1,15 @@
 import Map from "./Map/Map";
+
 import FacebookLogo from "./FacebookLogo.png";
 import InstagramLogo from "./InstagramLogo.png";
 import "./Footer.css";
 
+
 export default function Footer() {
   return (
     <>
-      <footer className="bg-slate-900 p-6  sm-full mt-auto">
+
+      <footer className="bg-slate-800 p-6 text-white sm-full mt-auto">
         <div className="lg:flex mx-12">
           <div className="lg:w-3/5 w-full text-center sm:text-start sm:flex gap-4 ">
 

@@ -2,8 +2,11 @@ import {React, useState, useEffect } from 'react';
 import AmericaLogo from "./AmericaLogo.png";
 import PodVeziLogo from "./PodVeziLogo.png";
 import "./NavBar.css";
+import { Link } from 'react-router-dom';
+
 
 import { Link } from 'react-router-dom';
+
 
 const navItems = [['ÚVOD', "/"], ['MENU', "/menu"], ['GALERIE', "/galerie"], ['KONTAKT', "/kontakt"]];
 
@@ -23,7 +26,7 @@ export default function NavBar() {
   }, []);
 
   const logoStyle = {
-    transform: `translateY(${Math.max(-116, 100 - window.scrollY)}px)`,
+    transform: `translateY(${Math.max(-116, 100 - scrollY)}px)`,
     // transition: 'transform 0.2s ease-out',
   };
 
@@ -33,14 +36,19 @@ export default function NavBar() {
     <nav className="font-notable bg-red-900 sticky top-0 z-50">
       <div className="md:flex items-center justify-between max-w-screen-xl mx-auto p-6">
 
-          <div className="fixed rounded-xl bg-red-900 invisible md:visible" style={logoStyle}>
+
+        {/* <div className='flex invisible md:visible'> */}
+          <div className="fixed bg-red-900 invisible md:visible rounded-b-xl" style={logoStyle}>
+
             <img src={AmericaLogo} alt="America Logo" className="max-h-60 " />
             <img src={PodVeziLogo} alt="America Logo" className="max-w-60 -mt-1 mb-2" />
           </div>
 
           <ul className="flex space-x-8 ml-auto invisible md:visible">
             {navItems.map((item, index) => (
-              <li key={index} className="text-lg hover:text-orange-100"><Link to={item[1]}>{item[0]}</Link></li>
+
+              <li key={index} className="text-lg "><Link to={item[1]}>{item[0]}</Link></li>
+
             ))}
           </ul>
 
@@ -65,8 +73,10 @@ export default function NavBar() {
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
             <div
-              className="CROSS-ICON absolute top-0 right-0 m-8 cursor-pointer hover:text-orange-100"
-              onClick={() => setIsNavOpen(false)}
+
+              className="CROSS-ICON absolute top-0 right-0 px-8 py-8"
+              onClick={() => setIsNavOpen(false)} 
+
             >
               <svg
                 className="h-8 w-8 ">
@@ -77,10 +87,11 @@ export default function NavBar() {
             </div>
 
             <ul className="MENU-MOBILE-OPEN flex flex-col items-center justify-between ">
-            {navItems.map((item, index) => (
-                <li key={index} className="my-10 text-3xl hover:text-orange-100 border-b pb-1 border-white hover:border-orange-100"><Link to={item[1]}>{item[0]}</Link></li>
+
+              {navItems.map((item, index) => (
+                <li key={index} className="text-3xl my-12 "><Link to={item[1]}>{item[0]}</Link></li>
               ))}
-          </ul>
+            </ul>
 
           </div>
         </div>
