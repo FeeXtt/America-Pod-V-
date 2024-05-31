@@ -1,21 +1,12 @@
-import * as React from "react";
-import "../../index.css";
-
+import React from 'react'
 import { TECarousel, TECarouselItem } from "tw-elements-react";
 
-
-export default function InfoCard(props) {
+export default function Carousel() {
   return (
     <>
-
-      <div className="lg:w-1/2 sm:w-full">
-        <div className="p-8 ">
-          <div className="w-full bg-red-900   text-center align-text-middle">
-            <p className="align-middle">Lorem ipsum dolor sit amet</p>
-          </div>
-          <div className="w-full">
-            <TECarousel ride="carousel">
-              <div className="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+    <div className='w-full h-60'>
+    <TECarousel ride="carousel">
+              <div className="relative w-full overflow-hidden after:clear-both after:block after:content-[''] h-[40rem]">
                 <TECarouselItem
                   itemID={1}
                   className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
@@ -48,10 +39,7 @@ export default function InfoCard(props) {
                 </TECarouselItem>
               </div>
             </TECarousel>
-          </div>
-
-        </div>
-      </div>
+    </div>
     </>
-  );
+  )
 }
