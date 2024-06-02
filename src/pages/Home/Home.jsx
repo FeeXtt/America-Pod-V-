@@ -1,6 +1,6 @@
 import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
-import ImageCard from "../../components/ImageCard/ImageCard";
+import HomeMainImageCard from "../../components/HomeMainImageCard/HomeMainImageCard";
 import BugerImg from "./burger.png";
 import InfoCard from "../../components/InfoCard/InfoCard";
 
@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <NavBar />
-      <ImageCard src={BugerImg} textpt1={"Vítejte na stránkách restaurace"} textpt2 ={"Amerika Pod Věží"}/>
+      <HomeMainImageCard src={BugerImg} textpt1={"Vítejte na stránkách restaurace"} textpt2 ={"Amerika Pod Věží"}/>
       <div className="max-w-screen-xl mx-auto">
         <InfoCard />
 

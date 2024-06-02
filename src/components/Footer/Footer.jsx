@@ -6,16 +6,16 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <>
-      <footer className="bg-slate-900 p-6  sm-full mt-auto">
-        <div className="lg:flex mx-12">
-          <div className="lg:w-3/5 w-full text-center sm:text-start sm:flex gap-4 ">
+      <footer className="bg-slate-900 p-6 md-full mt-auto">
+        <div className="lg:flex  text-center ">
+          <div className="lg:w-3/4 w-full text-center md:text-left sm:flex gap-4 ">
 
-            <div className="sm:w-1/3 p-5">
+            <div className="md:w-1/3 p-5">
 
-              <h1 className="text-2xl font-notable ">Otevírací Doba</h1>
+              <h1 className="text-2xl font-notable text-center">Otevírací Doba</h1>
               <br />
-              <div className="flex text-center">
-                <div className="w-1/3 ">
+              <div className="2xl:w-3/5 xl:w-4/5 sm:w-full w-2/4 mx-auto flex text-right xl:text-right">
+                <div className="w-1/5 ">
                   <p className="my-0.5">Pondělí:</p>
                   <p className="my-0.5">Úterý:</p>
                   <p className="my-0.5">Středa:</p>
@@ -24,7 +24,7 @@ export default function Footer() {
                   <p className="my-0.5">Sobota:</p>
                   <p className="my-0.5">Neděle:</p>
                 </div>
-                <div className="w-2/3">
+                <div className="w-4/5 text-right xl:">
                   <p className="my-0.5">11:00 - 22:00</p>
                   <p className="my-0.5">11:00 - 22:00</p>
                   <p className="my-0.5">11:00 - 22:00</p>
@@ -36,7 +36,7 @@ export default function Footer() {
               </div>
             </div>
 
-            <div className="sm:w-1/3 p-5 text-center">
+            <div className="sm:w-1/3  m-5 text-center">
               <h1 className="text-2xl font-notable  ">Kontakt </h1>
               <br />
               <p>Tel: 326 322 007</p>
@@ -49,9 +49,11 @@ export default function Footer() {
               >
                 Foodora
               </a>
+              <br/>
+              <br/>
             </div>
 
-            <div className="sm:w-1/3 p-5 leading-7">
+            <div className="sm:w-1/4 text-center sm:text-left m-5  leading-7">
               <h1 className="text-2xl font-notable  ">Adresa</h1>
               <br />
               <p>Komenského nám. 61, 293 01 Mladá Boleslav 1</p>
