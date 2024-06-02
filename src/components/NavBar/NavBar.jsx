@@ -5,9 +5,6 @@ import "./NavBar.css";
 import { Link } from 'react-router-dom';
 
 
-import { Link } from 'react-router-dom';
-
-
 const navItems = [['ÚVOD', "/"], ['MENU', "/menu"], ['GALERIE', "/galerie"], ['KONTAKT', "/kontakt"]];
 
 export default function NavBar() {

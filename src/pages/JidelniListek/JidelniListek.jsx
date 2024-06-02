@@ -1,8 +1,8 @@
 import Footer from "../../components/Footer/Footer";
 import ImageCard from "../../components/ImageCard/ImageCard";
 import NavBar from "../../components/NavBar/NavBar";
-import BugerImg from "/src/pages/Home/burger.jpg"
 import 'flowbite';
+import BugerImg from "../Home/burger.png"
 
 const navMenus = [["Stálé", "stale"], ["Denní", "denni"], ["Nápoje", "napoje"]];
 
