@@ -11,7 +11,7 @@ export default function AppRoutes() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Error />} />
-          <Route path="/jidelnilistek" element={<JidelniListek />} />
+          <Route path="/menu" element={<JidelniListek />} />
         </Routes>
       </BrowserRouter>
     </>
