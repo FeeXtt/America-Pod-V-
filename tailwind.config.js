@@ -19,9 +19,13 @@ export default {
       maxHeight: {
         '128': '32rem',
       },
+      rotate:{
+        '360': '360deg',
+      }
     },
     fontFamily: {
       'notable': ["Notable"],
+      'mate':["Mate"]
     },
   },
 
