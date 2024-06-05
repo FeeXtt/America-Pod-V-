@@ -11,12 +11,13 @@ export default function Home() {
 
   return (
     <>
-      <maincontent className="flex flex-col min-h-screen">
+      <maincontent className="flex flex-col min-h-screen ">
         <NavBar />
         <ImageCard
           src={BugerImg}
           textpt1={"Vítejte na stránkách restaurace"}
           textpt2={"Amerika Pod Věží"}
+          border={"border-b-2 border-white"}
         />
 
         <div className="max-w-screen-xl mx-auto font-mate ">
