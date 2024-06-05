@@ -4,6 +4,8 @@ import { useEffect } from "react";
 import Home from "./Home/Home";
 import Error from "./Error/Error";
 import JidelniListek from "./JidelniListek/JidelniListek";
+import Galerie from "./Galerie/Galerie";
+import Kontakt from "./Kontakt/Kontakt";
 
 function ScrollToTop() {
   const location = useLocation();
@@ -12,7 +14,6 @@ function ScrollToTop() {
     window.scrollTo(0, 0);
   }, [location]);
 
-  return null;
 }
 
 export default function AppRoutes() {
@@ -25,6 +26,8 @@ export default function AppRoutes() {
           <Route path="*" element={<Error />} />
           <Route path="/" element={<Home />} />
           <Route path="/menu" element={<JidelniListek />} />
+          <Route path="/galerie" element={<Galerie />} />
+          <Route path="/kontakt" element={<Kontakt />} />
         </Routes>
       </BrowserRouter>
     </>

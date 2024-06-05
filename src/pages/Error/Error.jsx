@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
 import ImageCard from "../../components/ImageCard/ImageCard";
-import BugerImg from "../Home/burger.png";
+import BugerImg from "./burger-error.jpg";
 
 
 export default function Error() {
