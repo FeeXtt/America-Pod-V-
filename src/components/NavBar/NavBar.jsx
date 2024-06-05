@@ -33,8 +33,6 @@ export default function NavBar() {
     <nav className="font-notable bg-red-900 sticky top-0 z-50">
       <div className="md:flex items-center justify-between max-w-screen-xl mx-auto p-6">
 
-
-        {/* <div className='flex invisible md:visible'> */}
           <div className="fixed bg-red-900 invisible md:visible rounded-b-xl" style={logoStyle}>
 
             <img src={AmericaLogo} alt="America Logo" className="max-h-60 " />
@@ -44,7 +42,7 @@ export default function NavBar() {
           <ul className="flex space-x-8 ml-auto invisible md:visible">
             {navItems.map((item, index) => (
 
-              <li key={index} className="text-lg hover:text-orange-100"><Link to={item[1]}>{item[0]}</Link></li>
+              <li key={index} className="text-lg hover:text-orange-100 "><Link to={item[1]}>{item[0]}</Link></li>
 
             ))}
           </ul>
@@ -74,7 +72,7 @@ export default function NavBar() {
 
             >
               <svg
-                className="h-8 w-8 hover:text-orange-100"
+                className="h-8 w-8 hover:text-orange-100 "
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"

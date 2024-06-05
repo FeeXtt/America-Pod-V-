@@ -41,7 +41,7 @@ export default function JidelniListek() {
 
       <div id="default-tab-content flex justify-center">
         {navMenus.map((item, index) => (
-          <div key={index} className={`max-w-screen-lg mx-auto text-slate-800 ${activeTab === item[1] ? '' : 'hidden'}`} id={item[1]} role="tabpanel" aria-labelledby={`${item[0]}-tab`}>
+          <div key={index} className={`max-w-screen-lg mx-auto text-white ${activeTab === item[1] ? '' : 'hidden'}`} id={item[1]} role="tabpanel" aria-labelledby={`${item[0]}-tab`}>
             <div className="justify-center flex text-2xl font-notable mt-4 mb-4">
               Polévky
             </div>
