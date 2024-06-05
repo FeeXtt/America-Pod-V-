@@ -1,17 +1,30 @@
 import React from "react";
 import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
-import { Link } from "react-router-dom";
+import ImageCard from "../../components/ImageCard/ImageCard";
+import BugerImg from "../Home/burger.png";
+
 
 export default function Error() {
+
+
   return (
     <>
       <NavBar />
-      <div className="text-slate-900 text-center my-80">
-        <p className="m-2 text-8xl">Nastala chyba</p>
-        <p className="mb-20 text-6xl">Omlouáme se 🍔</p>
-        <div><Link to={"/"} className="underline text-2xl"> Přejít na Úvodní Stránku </Link></div>
+
+      <div className="font-mate ">
+        <div className="">
+          <ImageCard
+            src={BugerImg}
+            textpt1="Nastala chyba"
+            textpt2="Omlouáme se 🍔"
+            link = "/"
+            linkText="Přejít na Úvodní Stránku"
+            h="h-2/3"
+          />
+        </div>
       </div>
+
       <Footer />
     </>
   );

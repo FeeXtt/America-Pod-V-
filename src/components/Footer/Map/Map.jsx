@@ -7,8 +7,8 @@ const position = [50.4125494825189, 14.903224052960049];
 
 function Map() {
   return (
-    <div className="h-56 w-full">
-    <MapContainer center={position} zoom={15} className="h-full w-full">
+    <div className="h-56 w-full ">
+    <MapContainer center={position} zoom={15} className="h-full w-full z-10">
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
