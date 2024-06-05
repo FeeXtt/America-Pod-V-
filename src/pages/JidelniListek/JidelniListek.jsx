@@ -4,6 +4,7 @@ import ImageCard from "../../components/ImageCard/ImageCard";
 import NavBar from "../../components/NavBar/NavBar";
 import 'flowbite';
 import BugerImg from "../Home/burger.png";
+import Button from '../../components/Button/Button';
 
 const navMenus = [["Stálé", "stale"], ["Denní", "denni"], ["Nápoje", "napoje"]];
 
@@ -21,7 +22,7 @@ export default function JidelniListek() {
             {navMenus.map((item, index) => (
               <li key={index} className="text-lg me-2" role="presentation">
                 <button 
-                  className={`inline-block p-4 hover:text-orange-200 text-white ${activeTab === item[1] ? 'text-orange-200' : 'text-white'}`} 
+                  className={`inline-block p-4 text-lg transform hover:drop-shadow-slate900 hover:-translate-y-0.5 hover:-translate-x-0.5 ${activeTab === item[1] ? 'transform drop-shadow-slate900 -translate-y-0.5 -translate-x-0.5' : ''}`} 
                   onClick={() => setActiveTab(item[1])}
                   id={item[1] + "-tab"} 
                   data-tabs-target={"#" + item[1]} 
@@ -41,7 +42,7 @@ export default function JidelniListek() {
 
       <div id="default-tab-content flex justify-center">
         {navMenus.map((item, index) => (
-          <div key={index} className={`max-w-screen-lg mx-auto text-slate-800 ${activeTab === item[1] ? '' : 'hidden'}`} id={item[1]} role="tabpanel" aria-labelledby={`${item[0]}-tab`}>
+          <div key={index} className={`max-w-screen-lg mx-auto ${activeTab === item[1] ? '' : 'hidden'}`} id={item[1]} role="tabpanel" aria-labelledby={`${item[0]}-tab`}>
             <div className="justify-center flex text-2xl font-notable mt-4 mb-4">
               Polévky
             </div>

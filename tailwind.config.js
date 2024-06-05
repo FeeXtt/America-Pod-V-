@@ -21,6 +21,10 @@ export default {
       },
       rotate:{
         '360': '360deg',
+      },
+      dropShadow: {
+        'slate800': '5px 5px 0 rgba(30, 41, 59, 1)',
+        'slate900': '5px 5px 0 rgba(15, 23, 42, 1)',
       }
     },
     fontFamily: {
