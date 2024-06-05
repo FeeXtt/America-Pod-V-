@@ -41,4 +41,4 @@ export default function ImageCard(props) {
     </div>
   );
 }
-//2xl:-translate-y-48 xl:-translate-y-24 md: -translate-y-20 || 2xl:mt-48 xl:mt-24 mt-20
+

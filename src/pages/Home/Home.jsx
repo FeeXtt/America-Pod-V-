@@ -1,9 +1,11 @@
 import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
+
 import ImageCard from "../../components/ImageCard/ImageCard";
 import BugerImg from "./burger.png";
 import AboutUsCard from "../../components/AboutUsCard/AboutUsCard";
 import Carousel from "../../components/Carousel/Carousel";
+
 
 export default function Home() {
 
@@ -80,6 +82,7 @@ export default function Home() {
 
         <Footer />
       </maincontent>
+
     </>
   );
 }
