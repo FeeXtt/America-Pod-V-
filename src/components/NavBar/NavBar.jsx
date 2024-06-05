@@ -3,6 +3,7 @@ import AmericaLogo from "./AmericaLogo.png";
 import PodVeziLogo from "./PodVeziLogo.png";
 import "./NavBar.css";
 import { Link } from 'react-router-dom';
+import Button from '../Button/Button';
 
 
 const navItems = [['ÚVOD', "/"], ['MENU', "/menu"], ['GALERIE', "/galerie"], ['KONTAKT', "/kontakt"]];
@@ -42,7 +43,7 @@ export default function NavBar() {
           <ul className="flex space-x-8 ml-auto invisible md:visible">
             {navItems.map((item, index) => (
 
-              <li key={index} className="text-lg hover:text-orange-100 "><Link to={item[1]}>{item[0]}</Link></li>
+              <li key={index}><Link to={item[1]}><Button text={item[0]} /></Link></li>
 
             ))}
           </ul>
@@ -55,7 +56,7 @@ export default function NavBar() {
             </div>
 
             <div
-              className="space-y-2 ml-auto -mt-6 cursor-pointer *:hover:bg-orange-100 "
+              className="space-y-2 ml-auto -mt-6  cursor-pointer text-lg transform hover:drop-shadow-3d hover:-translate-y-0.5 hover:-translate-x-0.5"
               onClick={() => setIsNavOpen((prev) => !prev)}
             >
               <span className="block h-0.5 w-8 bg-white "></span>
@@ -89,7 +90,7 @@ export default function NavBar() {
             <ul className="MENU-MOBILE-OPEN underline flex flex-col items-center justify-between ">
 
               {navItems.map((item, index) => (
-                <li key={index} className="text-3xl my-12 hover:text-orange-100 "><Link to={item[1]}>{item[0]}</Link></li>
+                <li key={index}><Link to={item[1]}><Button text={item[0]} /></Link></li>
               ))}
             </ul>
 
