@@ -1,18 +1,19 @@
 import React from 'react'
 import { TECarousel, TECarouselItem } from "tw-elements-react";
+import Img1Carousel from "./3burgers.jpg";
 
 export default function Carousel() {
   return (
     <>
     <div className='w-full h-60'>
     <TECarousel ride="carousel">
-              <div className="relative w-full overflow-hidden after:clear-both after:block after:content-[''] h-[40rem]">
+              <div className="relative w-full overflow-hidden after:clear-both after:block after:content-[''] h-full">
                 <TECarouselItem
                   itemID={1}
                   className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
                 >
                   <img
-                    src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
+                    src={Img1Carousel}
                     className="block w-full"
                     alt="..."
                   />
@@ -22,7 +23,7 @@ export default function Carousel() {
                   className="relative float-left hidden -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
                 >
                   <img
-                    src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
+                    src={Img1Carousel}
                     className="block w-full"
                     alt="..."
                   />
@@ -32,7 +33,7 @@ export default function Carousel() {
                   className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
                 >
                   <img
-                    src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+                    src={Img1Carousel}
                     className="block w-full"
                     alt="..."
                   />
