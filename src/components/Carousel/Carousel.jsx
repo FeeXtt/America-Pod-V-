@@ -12,31 +12,19 @@ export default function Carousel() {
               itemID={1}
               className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
             >
-              <img
-                src={Img1Carousel}
-                className="block w-full"
-                alt="..."
-              />
+              <img src={Img1Carousel} className="block w-full" alt="..." />
             </TECarouselItem>
             <TECarouselItem
               itemID={2}
               className="relative float-left hidden -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
             >
-              <img
-                src={Img1Carousel}
-                className="block w-full"
-                alt="..."
-              />
+              <img src={Img1Carousel} className="block w-full" alt="..." />
             </TECarouselItem>
             <TECarouselItem
               itemID={3}
               className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
             >
-              <img
-                src={Img1Carousel}
-                className="block w-full"
-                alt="..."
-              />
+              <img src={Img1Carousel} className="block w-full" alt="..." />
             </TECarouselItem>
           </div>
         </TECarousel>
