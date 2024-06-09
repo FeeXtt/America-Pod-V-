@@ -6,7 +6,7 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <>
-      <footer className="bg-slate-900 p-6 md-full mt-auto">
+      <footer className="bg-slate-900 p-6 md-full mt-auto font-mate">
         <div className="lg:flex  text-center ">
           <div className="lg:w-3/4 w-full text-center md:text-left sm:flex gap-4 ">
     

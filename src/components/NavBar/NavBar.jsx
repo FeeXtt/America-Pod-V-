@@ -25,7 +25,6 @@ export default function NavBar() {
 
   const logoStyle = {
     transform: `translateY(${Math.max(-116, 100 - scrollY)}px)`,
-    // transition: 'transform 0.2s ease-out',
   };
 
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -35,7 +34,6 @@ export default function NavBar() {
       <div className="md:flex items-center justify-between max-w-screen-xl mx-auto p-6">
 
           <div className="fixed bg-red-900 invisible md:visible rounded-b-xl" style={logoStyle}>
-
             <img src={AmericaLogo} alt="America Logo" className="max-h-60 " />
             <img src={PodVeziLogo} alt="America Logo" className="max-w-60 -mt-1 mb-2" />
           </div>
@@ -56,7 +54,7 @@ export default function NavBar() {
             </div>
 
             <div
-              className="space-y-2 ml-auto -mt-6  cursor-pointer text-lg transform hover:drop-shadow-3d hover:-translate-y-0.5 hover:-translate-x-0.5"
+              className="space-y-2 ml-auto -mt-6  cursor-pointer text-lg transform hover:drop-shadow-3d hover:-translate-y-0.25 hover:-translate-x-0.25"
               onClick={() => setIsNavOpen((prev) => !prev)}
             >
               <span className="block h-0.5 w-8 bg-white "></span>
@@ -87,10 +85,10 @@ export default function NavBar() {
 
             </div>
 
-            <ul className="MENU-MOBILE-OPEN underline flex flex-col items-center justify-between ">
+            <ul className="MENU-MOBILE-OPEN underline flex flex-col items-center  justify-between space-y-16">
 
               {navItems.map((item, index) => (
-                <li key={index}><Link to={item[1]}><Button text={item[0]} /></Link></li>
+                <li key={index}><Link to={item[1]}><Button text={item[0]} clas="text-3xl"/></Link></li>
               ))}
             </ul>
 

@@ -11,18 +11,20 @@ const navMenus = [["Stálé", "stale"], ["Denní", "denni"], ["Nápoje", "napoje
 export default function JidelniListek() {
   const [activeTab, setActiveTab] = useState(navMenus[0][1]);
 
+ 
+
   return (
     <div className="text-white">
       <NavBar />
       
-      <ImageCard src={BugerImg} textpt1="Menu" h="h-80"/>
+      <ImageCard src={BugerImg} textpt1="Menu" h="h-80" border={"border-b-2 border-white"}/>
 
       <div className="bg-slate-800 ">
         <ul className="flex justify-center -mb-px font-notable" id="default-tab" data-tabs-toggle="#default-tab-content" role="tablist">
             {navMenus.map((item, index) => (
               <li key={index} className="text-lg me-2" role="presentation">
                 <button 
-                  className={`inline-block p-4 text-lg transform hover:drop-shadow-slate900 hover:-translate-y-0.5 hover:-translate-x-0.5 ${activeTab === item[1] ? 'transform drop-shadow-slate900 -translate-y-0.5 -translate-x-0.5' : ''}`} 
+                  className={`inline-block p-4 text-lg transform hover:drop-shadow-slate900 hover:-translate-y-0.25 hover:-translate-x-0.25 text-white ${activeTab === item[1] ? 'transform drop-shadow-slate900 -translate-y-0.25 -translate-x-0.25' : ''}`} 
                   onClick={() => setActiveTab(item[1])}
                   id={item[1] + "-tab"} 
                   data-tabs-target={"#" + item[1]} 
@@ -43,6 +45,7 @@ export default function JidelniListek() {
       <div id="default-tab-content flex justify-center">
         {navMenus.map((item, index) => (
           <div key={index} className={`max-w-screen-lg mx-auto ${activeTab === item[1] ? '' : 'hidden'}`} id={item[1]} role="tabpanel" aria-labelledby={`${item[0]}-tab`}>
+  
             <div className="justify-center flex text-2xl font-notable mt-4 mb-4">
               Polévky
             </div>
