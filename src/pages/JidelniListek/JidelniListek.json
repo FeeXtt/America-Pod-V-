@@ -410,6 +410,191 @@
                 "dish": "HOLIDAY BURGER",
                 "price": 235,
                 "description": "180g hovězí burger, opečená křupavá slanina, grilovaný ananas, sýr eidam, polníček"
+            },
+            {
+                "dish": "JACK DANIEL'S BURGER",
+                "price": 235,
+                "description": "180g hovězí burger, modrý sýr, slaninová marmeláda s červenou cibulkou, naše domácí omáčka z medového Jacka"
+            },
+            {
+                "dish": "AMERICA BURGER",
+                "price": 235,
+                "description": "180g hovězí burger, slaninová marmeláda, salát coleslaw, čedar, karamelizovaná cibule, křupavá slanina"
+            },
+            {
+                "dish": "BIG MAN BURGER",
+                "price": 259,
+                "description": "2 x 180g hovězí burger s opečenou slaninou a čedarem"
+            },
+            {
+                "dish": "BISON BURGER",
+                "price": 239,
+                "description": "180g hovězí burger, karamelizovaná cibule, sýr čedar, omáčka z kanadských brusinek, polníček"
+            },
+            {
+                "dish": "LORD BURGER",
+                "price": 295,
+                "description": "2 x 180g hovězí burger, 4 plátky čedaru, salát, grilovaná cuketa, 2 plátky uzené slaniny, okurky, jalapeños papričky, přelití naší BBQ omáčkou"
+            },
+            {
+                "dish": "CHICKEN BURGER",
+                "price": 219,
+                "description": "180g fílirované kuřecí prsíčko, čedar, karamelizovaná cibulka, opečená slanina a naše BBQ omáčka"
+            },
+            {
+                "dish": "CAESAR BURGER",
+                "price": 219,
+                "description": "180g kuřecí grilovaných prsíček, křupavá slanina, dresink Caesar, parmazán, rukola"
+            },
+            {
+                "dish": "CRIPS BURGER",
+                "price": 219,
+                "description": "180g obalované kuřecí prsíčko v kukuřičných lupínkách, čedar, pikantní omáčka ze sladkého chili, polníček"
+            },
+            {
+                "dish": "VEGETARIAN BURGER",
+                "price": 205,
+                "description": "grilovaná zelenina, čedar, karamelizovaná cibulka, přelitý BBQ omáčkou"
+            }
+        ],
+        "BBQ": [
+            {
+                "dish": "PEČENÁ VEPŘOVÁ ŽEBÍRKA",
+                "price": 294,
+                "description": "600g nakládaná žebírka v naší BBQ marinádě, s domácími hranolky a salát coleslaw"
+            },
+            {
+                "dish": "SMAŽENÁ KŘUPAVÁ KŘIDÝLKA V MARINÁDĚ (10 ks)",
+                "price": 209,
+                "description": "smažená křídýlka v naší marinádě dresink z modrého sýra (vyberte si svoji marinádu: hořčice-medová, BBQ, jemně pikantní)"
+            },
+            {
+                "dish": "SMAŽENÁ KŘUPAVÁ KŘIDÝLKA V MARINÁDĚ (20 ks)",
+                "price": 309,
+                "description": "smažená křídýlka v naší marinádě dresink z modrého sýra (vyberte si svoji marinádu: hořčice-medová, BBQ, jemně pikantní)"
+            },
+            {
+                "dish": "AMERICA MIX",
+                "price": 499,
+                "description": "4 ks jemně pikantní křidélka, 2 x 130g hovězí cheese burger, 300g BBQ žebírek, dresink z modrého sýra, coleslaw, 4 ks cibulových kroužků, domácí hranolky"
+            }
+        ],
+        "STEAK": [
+            {
+                "dish": "ELIS STEAK",
+                "price": 235,
+                "description": "200g kuřecí prsíčko připravené na grilu s jemnou omáčkou z modrého sýra, sypané sekanými mandlemi"
+            },
+            {
+                "dish": "JACK STEAK",
+                "price": 244,
+                "description": "200g kuřecí grilované prsíčko s naší slaninovou marmeládou, přelité domácí omáčkou z medového Jacka"
+            },
+            {
+                "dish": "GIMINA STEAK",
+                "price": 264,
+                "description": "200g na grilu připravený krůtí steak s dokřupava opečenou slaninou a karamelizovanou červenou cibulkou na červeném víně"
+            },
+            {
+                "dish": "AMERICA STEAK",
+                "price": 274,
+                "description": "300g grilovaná krkovička marinovaná v hořčičné marinádě s pečenou a karamelizovanou cibulkou"
+            },
+            {
+                "dish": "DADDY'S STEAK",
+                "price": 274,
+                "description": "300g grilovaný šťavnatý steak z kotlety přelitý jemnou redukovanou omáčkou z nakládaného zeleného pepře"
+            },
+            {
+                "dish": "BARBIE PANENKA",
+                "price": 274,
+                "description": "300g grilovaná panenka podávaná s dokřupava opečenou cibulkou a naší domácí švestkovou omáčkou"
+            },
+            {
+                "dish": "ROSEMARY PANENKA",
+                "price": 274,
+                "description": "300g fílirovaná grilovaná panenka obalená ve slaninové krustě, provoněná rozmarýnem a česnekem"
+            },
+            {
+                "dish": "SALMON 74",
+                "price": 294,
+                "description": "150g filet z lososa připravený na grilu s bylinkovým máslem"
+            }
+        ],
+        "SUPPLEMENTS": [
+            {
+                "dish": "Domácí hranolky, 200 g",
+                "price": 65,
+                "description": ""
+            },
+            {
+                "dish": "Pečená brambora na grilu",
+                "price": 65,
+                "description": "se zakysanou smetanou"
+            },
+            {
+                "dish": "Kukuřičný klas",
+                "price": 65,
+                "description": "s máslem a solí"
+            },
+            {
+                "dish": "Zelené fazolové lusky se slaninou",
+                "price": 79,
+                "description": ""
+            },
+            {
+                "dish": "Salát Coleslaw, 180 g",
+                "price": 55,
+                "description": ""
+            },
+            {
+                "dish": "Nachos",
+                "price": 50,
+                "description": ""
+            },
+            {
+                "dish": "Grilovaná zelenina",
+                "price": 89,
+                "description": ""
+            },
+            {
+                "dish": "Opečené brambůrky",
+                "price": 65,
+                "description": ""
+            }
+        ],
+        "DRESSINGS - INGREDIENT": [
+            {
+                "dish": "Homemade dresink's",
+                "price": 55,
+                "description": "modrý sýr, ceasar, BBQ, hořčice - medový, chipotle majonéza, česnekový dip"
+            },
+            {
+                "dish": "jalapeño, plátek pečené slaniny, karamelizovaná cibulka, žampion",
+                "price": 30,
+                "description": ""
+            },
+            {
+                "dish": "plátek sýra",
+                "price": 30,
+                "description": ""
+            }
+        ],
+        "DESSERT": [
+            {
+                "dish": "BROWNIES",
+                "price": 139,
+                "description": "s vanilkovou zmrzlinou, šlehačkou, přelitý horkou čokoládou"
+            },
+            {
+                "dish": "CHEESE CAKE",
+                "price": 99,
+                "description": "s kopečkem vanilkové zmrzliny, šlehačkou, mandlemi a skořicovým cukrem"
+            },
+            {
+                "dish": "CHURROS",
+                "price": 149,
+                "description": "křupavé odpalované mexické tyčinky obalované ve skořicovém cukru se zakysanou smetanou přelité karamelem"
             }
         ]
     },
