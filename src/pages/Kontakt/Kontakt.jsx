@@ -5,7 +5,7 @@ import Footer from "../../components/Footer/Footer";
 export default function Galerie() {
   return (
     <>
-      <maincontent className="flex flex-col min-h-screen ">
+      <div className="flex flex-col min-h-screen ">
         <NavBar />
         <div className="max-w-screen-xl mx-auto font-mate bg-black">
           <p>
@@ -76,7 +76,7 @@ export default function Galerie() {
         </div>
 
         <Footer />
-      </maincontent>
+      </div>
     </>
   );
 }

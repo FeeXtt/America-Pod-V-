@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <>
-      <maincontent className="flex flex-col min-h-screen ">
+      <div className="flex flex-col min-h-screen ">
         <NavBar />
         <ImageCard
           src={BugerImg}
@@ -44,7 +44,7 @@ export default function Home() {
         <br />
         <br /> */}
         <Footer />
-      </maincontent>
+      </div>
 
     </>
   );
