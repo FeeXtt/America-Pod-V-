@@ -1,20 +1,35 @@
 import React from "react";
-import Vycep from "./vycep.jpg";
+import { Link } from "react-router-dom";
 
-export default function AboutUsCard() {
+export default function AboutUsCard(props) {
   return (
     <>
-      
-      <div className='grid md:grid-cols-4 sm:grid-cols-1 mt-20 mb-20 px-0 md:px-5'>
-        <div className='md:w-full w-3/4  md:col-span-2 relative mx-auto'>
-        <img src={Vycep} className="block  md:rounded-lg inset-0 w-full h-full object-cover object-center" alt="..."/>
-
-        </div>
-        <div className='max-w-md mx-auto sm:max-w-xl lg:max-w-full md:col-span-2 relative lg:block p-20'>
-            <div className='text-7xl'><b>O nas</b></div>
-            <div className='text-2xl mt-7'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum sit numquam architecto deserunt cum iure, soluta maiores quam sint nobis sapiente quibusdam totam hic dicta illo dolor dolores porro voluptatum?</div>
-        </div>
-    </div>
+      <>
+        <section className="grid gap-8 md:grid-cols-2 md:items-center md:text-left mt-20 mb-20 ">
+          <div className={`relative md:px-0 px-20`}>
+            <img
+              className={`object-cover rounded-lg w-full aspect-[4/3]`}
+              src={props.imgSrc}
+              alt="burger img"
+            />
+          </div>
+          <div className="md:px-0 px-20 font-mate text-2xl  ">
+            <p className="">
+              <b>{props.headline}</b>
+            </p>
+            <p className=" mt-7">{props.text}</p>
+            <Link to="/">
+              <button
+                type="button"
+                class="mt-4 font-bold  inline-block rounded-lg bg-red-900  px-6 pb-2 pt-2.5 text-xs  uppercase leading-normal text-white shadow-danger-3
+                 transition duration-150 ease-in-out  active:bg-red-800 active:shadow-danger-2  transform hover:drop-shadow-slate800 hover:-translate-y-0.5 hover:-translate-x-0.5"
+              >
+                Danger
+              </button>
+            </Link>
+          </div>
+        </section>
+      </>
     </>
   );
 }
