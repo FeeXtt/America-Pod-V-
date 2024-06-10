@@ -28,7 +28,7 @@ export default function ImageCard(props) {
             {props.textpt1}
             {props.textpt2 && <br/>} 
             {props.textpt2 }
-            <br/>  
+            <br/>
 
             <Link
               to={props.link}

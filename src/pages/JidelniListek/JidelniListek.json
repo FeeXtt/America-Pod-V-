@@ -1,0 +1,602 @@
+{
+    "napoje": {
+        "Soft Drink": [
+            {
+                "dish": "Bonaqua (jemně perlivá / neperlivá)",
+                "price": 50
+            },
+            {
+                "dish": "Coca cola plech (obyč / Zero)",
+                "price": 58
+            },
+            {
+                "dish": "Sprite plech",
+                "price": 58
+            },
+            {
+                "dish": "Fanta plech",
+                "price": 58
+            },
+            {
+                "dish": "Tonic (obyč / Zázvor)",
+                "price": 58
+            },
+            {
+                "dish": "Red Bull",
+                "price": 70
+            },
+            {
+                "dish": "Ice Tea Fuzze (dle nabídky)",
+                "price": 58
+            },
+            {
+                "dish": "Džbán vody (citrón, máta) 1l",
+                "price": 75
+            },
+            {
+                "dish": "Džbán vody (citrón, máta) 0,5l",
+                "price": 50
+            }
+        ],
+        "America Special": [
+            {
+                "dish": "Dr. Pepper (dle nabídky)",
+                "price": 65
+            },
+            {
+                "dish": "Fanta (Hroznové víno, Jablko, Jahoda, Ananas)",
+                "price": 65
+            },
+            {
+                "dish": "Domácí limonády s ovocem 0,5l",
+                "price": 89
+            }
+        ],
+        "Lemonade Zone": [
+            {
+                "dish": "ZONE (Limonády z Vysočiny, dle nabídky)",
+                "price": 50
+            }
+        ],
+        "Cappy Juice": [
+            {
+                "dish": "Juice 0,20l",
+                "price": 58
+            }
+        ],
+        "Coffe": [
+            {
+                "dish": "Espresso",
+                "price": 62
+            },
+            {
+                "dish": "Capuccino",
+                "price": 65
+            },
+            {
+                "dish": "Caffe Latte",
+                "price": 75
+            },
+            {
+                "dish": "Turecká káva",
+                "price": 62
+            },
+            {
+                "dish": "Alžírská káva",
+                "price": 79
+            },
+            {
+                "dish": "Vídeňská káva",
+                "price": 65
+            },
+            {
+                "dish": "Ledová káva (se zmrzlinou a šlehačkou)",
+                "price": 85
+            }
+        ],
+        "Tea": [
+            {
+                "dish": "ovocný, černý, zelený čaj (med a citron)",
+                "price": 55
+            },
+            {
+                "dish": "čaj z čerstvého zázvoru (med a citron)",
+                "price": 69
+            },
+            {
+                "dish": "čaj z čerstvé máty (med a citron)",
+                "price": 69
+            }
+        ],
+        "White Wine": [
+            {
+                "dish": "Veltlínské zelené (suché) 0,1l",
+                "price": 43
+            },
+            {
+                "dish": "Chardonnay (polosladké) 0,1l",
+                "price": 43
+            }
+        ],
+        "Red Wine": [
+            {
+                "dish": "Frankovka (suché) 0,1l",
+                "price": 43
+            },
+            {
+                "dish": "Cabernet sauvignon (polosladké) 0,1l",
+                "price": 43
+            }
+        ],
+        "Special Wine": [
+            {
+                "dish": "Moravské vinařství Bílkovi (dle nabídky)",
+                "price": 320
+            }
+        ],
+        "Champagne": [
+            {
+                "dish": "Bohemia sekt (Demi, Brut) 0,75l",
+                "price": 320
+            }
+        ],
+        "Aperitiv": [
+            {
+                "dish": "Cinzano bianco 0,1l",
+                "price": 55
+            },
+            {
+                "dish": "Cinzano rosso 0,1l",
+                "price": 55
+            },
+            {
+                "dish": "Aperol Spritz 0,2l (Proseco, Aperol, Spritz, soda, pomeranč)",
+                "price": 105
+            },
+            {
+                "dish": "Hugo 0,2l (Proseco, bezinkový sirup, soda, máta, limeta)",
+                "price": 105
+            }
+        ],
+        "Beer": [
+            {
+                "dish": "Plzeň 0,5l",
+                "price": 68
+            },
+            {
+                "dish": "Plzeň 0,3l",
+                "price": 53
+            },
+            {
+                "dish": "Radegast 10° 0,5l",
+                "price": 55
+            },
+            {
+                "dish": "Radegast 10° 0,3l",
+                "price": 45
+            }
+        ],
+        "Soft Beer": [
+            {
+                "dish": "Lobkowicz (světlé) 0,5l",
+                "price": 53
+            },
+            {
+                "dish": "Birell (polotmavé) 0,5l",
+                "price": 53
+            },
+            {
+                "dish": "Birell pomelo 0,5l",
+                "price": 55
+            },
+            {
+                "dish": "Birell pomelo 0,3l",
+                "price": 45
+            }
+        ],
+        "Spirit": [
+            {
+                "dish": "Vodka Finlandia 4cl",
+                "price": 65
+            },
+            {
+                "dish": "Vodka jemná 4cl",
+                "price": 50
+            },
+            {
+                "dish": "Vodka Amundsen ochucená (dle nabídky) 4cl",
+                "price": 50
+            },
+            {
+                "dish": "Koskenkorva peach 4cl",
+                "price": 55
+            },
+            {
+                "dish": "Rum tuzemský 4cl",
+                "price": 45
+            },
+            {
+                "dish": "Griotka 4cl",
+                "price": 45
+            },
+            {
+                "dish": "Zelená 4cl",
+                "price": 45
+            },
+            {
+                "dish": "Becherovka 4cl",
+                "price": 55
+            },
+            {
+                "dish": "Becherovka lemon 4cl",
+                "price": 55
+            },
+            {
+                "dish": "Fernet Stock 4cl",
+                "price": 55
+            },
+            {
+                "dish": "Fernet Stock Citrus 4cl",
+                "price": 55
+            },
+            {
+                "dish": "Gin Beefeater 4cl",
+                "price": 65
+            },
+            {
+                "dish": "Tequila Silver, Gold 4cl",
+                "price": 75
+            },
+            {
+                "dish": "Slivovice 4cl",
+                "price": 75
+            },
+            {
+                "dish": "Hruškovice 4cl",
+                "price": 75
+            },
+            {
+                "dish": "Captain Morgan 4cl",
+                "price": 65
+            },
+            {
+                "dish": "Havana 4cl",
+                "price": 75
+            },
+            {
+                "dish": "Tullamore Dew 4cl",
+                "price": 75
+            },
+            {
+                "dish": "Jameson 4cl",
+                "price": 75
+            },
+            {
+                "dish": "Jim Beam 4cl",
+                "price": 75
+            },
+            {
+                "dish": "Johny Walker 4cl",
+                "price": 85
+            },
+            {
+                "dish": "Jack Daniels, Honey 4cl",
+                "price": 85
+            },
+            {
+                "dish": "Metaxa 4cl",
+                "price": 75
+            },
+            {
+                "dish": "Jägermeister 4cl",
+                "price": 75
+            }
+        ]
+    },
+    "stale": {
+        "SALADS": [
+            {
+                "dish": "LITTLE SALAD",
+                "price": 109,
+                "description": "mix listových salátů se sezónní zeleninou a dresinkem dle vašeho výběru"
+            },
+            {
+                "dish": "CAESAR SALAD",
+                "price": 209,
+                "description": "čerstvý římský salát, opečená uzená slanina, grilované kuřecí kousky, parmazán, caesar dresink, krutóny"
+            },
+            {
+                "dish": "KENNEDY SALAD",
+                "price": 209,
+                "description": "křupavé smažené sýrové kousky na lůžku ledového salátu, polníček, rajčata, kandované brusinky, sekané mandle, balzamiková redukce"
+            },
+            {
+                "dish": "LUXURY SALAD",
+                "price": 220,
+                "description": "fílirované BBQ kuřecí prsíčko na lůžku ledového salátu s rajčaty, jalapeño papričkami, smaženou cibulkou, sýrem čedar, nachos a nakonec přelité dresinkem z chipotle paprik a zakysané smetany"
+            },
+            {
+                "dish": "MASTER SALMON SALAD",
+                "price": 229,
+                "description": "grilované kousky lososa na mixu listových salátů, cherry rajčátka, kapary, hoblinky parmazánu, opečený toustík, limetkový dresink"
+            }
+        ],
+        "SANDWICH": [
+            {
+                "dish": "BAFALO SANDWICH",
+                "price": 194,
+                "description": "křupavé smažené kuřecí kousky balené v pikantní omáčce, podávané s listy jemných salátů a rajčaty na celozrnné bagetě"
+            },
+            {
+                "dish": "KING SANDWICH",
+                "price": 219,
+                "description": "grilované kuřecí prsíčko, ledovým salátem, uzenou slaninou a rajčátky podávané na pečeném toustovém chlebu"
+            },
+            {
+                "dish": "QUESADILLA",
+                "price": 294,
+                "description": "grilovaná mexická tortilla plněná kuřecím prsíčkem, karamelizovanou cibulkou, jalapeño papričkami, opečenou slaninou a čedarem + dip - zakysaná smetana, BBQ, nachos"
+            }
+        ],
+        "APPETIZER": [
+            {
+                "dish": "10 ks Cibulové kroužky s BBQ omáčkou",
+                "price": 109,
+                "description": "10 ks cibulové kroužky s BBQ omáčkou"
+            },
+            {
+                "dish": "130g Smažené sýrové kousky s pikantní omáčkou",
+                "price": 129,
+                "description": "130g smažené sýrové kousky s pikantní omáčkou"
+            },
+            {
+                "dish": "200g Nachos",
+                "price": 169,
+                "description": "kukuřičné tortilla chips s čedarem, slaninovou marmeládou, zakysanou smetanou a jalapeño papričkami"
+            },
+            {
+                "dish": "130g Jalapeño papričky",
+                "price": 129,
+                "description": "plněné čedarem, podávané na zeleném lůžku s Cherry rajčátky a česnekovým dresinkem"
+            }
+        ],
+        "AMERICA BURGERS": [
+            {
+                "dish": "CHEESEBURGER",
+                "price": 200,
+                "description": "180g hovězí burger s 2 plátky sýru podle vašeho výběru"
+            },
+            {
+                "dish": "BACON BURGER",
+                "price": 200,
+                "description": "180g hovězí burger, grilovaná slanina, sýr čedar"
+            },
+            {
+                "dish": "HUGO BURGER",
+                "price": 204,
+                "description": "180g hovězí burger, uzená slanina, čedar, grilovaná cuketa, jalapeño papričky"
+            },
+            {
+                "dish": "FIRE BURGER",
+                "price": 219,
+                "description": "180g hovězí burger, karamelizovaná cibulka, jalapeño papričky, sýr čedar, grilovaná slanina"
+            },
+            {
+                "dish": "MANHATTAN BURGER",
+                "price": 219,
+                "description": "180g hovězí burger, grilované žampiony, karamelizovaná cibule, čedar"
+            },
+            {
+                "dish": "PLUM BURGER",
+                "price": 229,
+                "description": "180g hovězí burger, čedar, naše domácí švestková omáčka, grilovaná slanina, smažená cibulka"
+            },
+            {
+                "dish": "FRESH BURGER",
+                "price": 235,
+                "description": "180g hovězí burger, opečená slanina, eidam, rukola, dresing z modrého sýra"
+            },
+            {
+                "dish": "MONROE BURGER",
+                "price": 235,
+                "description": "180g hovězí burger, camembert, opečená slanina, omáčka z kanadských brusinek, polníček"
+            },
+            {
+                "dish": "JOJ BURGER",
+                "price": 235,
+                "description": "180g hovězí burger, křupavá slanina, sýr čedar, sázené vejce, jalapeño papričky, polníček"
+            },
+            {
+                "dish": "HOLIDAY BURGER",
+                "price": 235,
+                "description": "180g hovězí burger, opečená křupavá slanina, grilovaný ananas, sýr eidam, polníček"
+            },
+            {
+                "dish": "JACK DANIEL'S BURGER",
+                "price": 235,
+                "description": "180g hovězí burger, modrý sýr, slaninová marmeláda s červenou cibulkou, naše domácí omáčka z medového Jacka"
+            },
+            {
+                "dish": "AMERICA BURGER",
+                "price": 235,
+                "description": "180g hovězí burger, slaninová marmeláda, salát coleslaw, čedar, karamelizovaná cibule, křupavá slanina"
+            },
+            {
+                "dish": "BIG MAN BURGER",
+                "price": 259,
+                "description": "2 x 180g hovězí burger s opečenou slaninou a čedarem"
+            },
+            {
+                "dish": "BISON BURGER",
+                "price": 239,
+                "description": "180g hovězí burger, karamelizovaná cibule, sýr čedar, omáčka z kanadských brusinek, polníček"
+            },
+            {
+                "dish": "LORD BURGER",
+                "price": 295,
+                "description": "2 x 180g hovězí burger, 4 plátky čedaru, salát, grilovaná cuketa, 2 plátky uzené slaniny, okurky, jalapeños papričky, přelití naší BBQ omáčkou"
+            },
+            {
+                "dish": "CHICKEN BURGER",
+                "price": 219,
+                "description": "180g fílirované kuřecí prsíčko, čedar, karamelizovaná cibulka, opečená slanina a naše BBQ omáčka"
+            },
+            {
+                "dish": "CAESAR BURGER",
+                "price": 219,
+                "description": "180g kuřecí grilovaných prsíček, křupavá slanina, dresink Caesar, parmazán, rukola"
+            },
+            {
+                "dish": "CRIPS BURGER",
+                "price": 219,
+                "description": "180g obalované kuřecí prsíčko v kukuřičných lupínkách, čedar, pikantní omáčka ze sladkého chili, polníček"
+            },
+            {
+                "dish": "VEGETARIAN BURGER",
+                "price": 205,
+                "description": "grilovaná zelenina, čedar, karamelizovaná cibulka, přelitý BBQ omáčkou"
+            }
+        ],
+        "BBQ": [
+            {
+                "dish": "PEČENÁ VEPŘOVÁ ŽEBÍRKA",
+                "price": 294,
+                "description": "600g nakládaná žebírka v naší BBQ marinádě, s domácími hranolky a salát coleslaw"
+            },
+            {
+                "dish": "SMAŽENÁ KŘUPAVÁ KŘIDÝLKA V MARINÁDĚ (10 ks)",
+                "price": 209,
+                "description": "smažená křídýlka v naší marinádě dresink z modrého sýra (vyberte si svoji marinádu: hořčice-medová, BBQ, jemně pikantní)"
+            },
+            {
+                "dish": "SMAŽENÁ KŘUPAVÁ KŘIDÝLKA V MARINÁDĚ (20 ks)",
+                "price": 309,
+                "description": "smažená křídýlka v naší marinádě dresink z modrého sýra (vyberte si svoji marinádu: hořčice-medová, BBQ, jemně pikantní)"
+            },
+            {
+                "dish": "AMERICA MIX",
+                "price": 499,
+                "description": "4 ks jemně pikantní křidélka, 2 x 130g hovězí cheese burger, 300g BBQ žebírek, dresink z modrého sýra, coleslaw, 4 ks cibulových kroužků, domácí hranolky"
+            }
+        ],
+        "STEAK": [
+            {
+                "dish": "ELIS STEAK",
+                "price": 235,
+                "description": "200g kuřecí prsíčko připravené na grilu s jemnou omáčkou z modrého sýra, sypané sekanými mandlemi"
+            },
+            {
+                "dish": "JACK STEAK",
+                "price": 244,
+                "description": "200g kuřecí grilované prsíčko s naší slaninovou marmeládou, přelité domácí omáčkou z medového Jacka"
+            },
+            {
+                "dish": "GIMINA STEAK",
+                "price": 264,
+                "description": "200g na grilu připravený krůtí steak s dokřupava opečenou slaninou a karamelizovanou červenou cibulkou na červeném víně"
+            },
+            {
+                "dish": "AMERICA STEAK",
+                "price": 274,
+                "description": "300g grilovaná krkovička marinovaná v hořčičné marinádě s pečenou a karamelizovanou cibulkou"
+            },
+            {
+                "dish": "DADDY'S STEAK",
+                "price": 274,
+                "description": "300g grilovaný šťavnatý steak z kotlety přelitý jemnou redukovanou omáčkou z nakládaného zeleného pepře"
+            },
+            {
+                "dish": "BARBIE PANENKA",
+                "price": 274,
+                "description": "300g grilovaná panenka podávaná s dokřupava opečenou cibulkou a naší domácí švestkovou omáčkou"
+            },
+            {
+                "dish": "ROSEMARY PANENKA",
+                "price": 274,
+                "description": "300g fílirovaná grilovaná panenka obalená ve slaninové krustě, provoněná rozmarýnem a česnekem"
+            },
+            {
+                "dish": "SALMON 74",
+                "price": 294,
+                "description": "150g filet z lososa připravený na grilu s bylinkovým máslem"
+            }
+        ],
+        "SUPPLEMENTS": [
+            {
+                "dish": "Domácí hranolky, 200 g",
+                "price": 65,
+                "description": ""
+            },
+            {
+                "dish": "Pečená brambora na grilu",
+                "price": 65,
+                "description": "se zakysanou smetanou"
+            },
+            {
+                "dish": "Kukuřičný klas",
+                "price": 65,
+                "description": "s máslem a solí"
+            },
+            {
+                "dish": "Zelené fazolové lusky se slaninou",
+                "price": 79,
+                "description": ""
+            },
+            {
+                "dish": "Salát Coleslaw, 180 g",
+                "price": 55,
+                "description": ""
+            },
+            {
+                "dish": "Nachos",
+                "price": 50,
+                "description": ""
+            },
+            {
+                "dish": "Grilovaná zelenina",
+                "price": 89,
+                "description": ""
+            },
+            {
+                "dish": "Opečené brambůrky",
+                "price": 65,
+                "description": ""
+            }
+        ],
+        "DRESSINGS - INGREDIENT": [
+            {
+                "dish": "Homemade dresink's",
+                "price": 55,
+                "description": "modrý sýr, ceasar, BBQ, hořčice - medový, chipotle majonéza, česnekový dip"
+            },
+            {
+                "dish": "jalapeño, plátek pečené slaniny, karamelizovaná cibulka, žampion",
+                "price": 30,
+                "description": ""
+            },
+            {
+                "dish": "plátek sýra",
+                "price": 30,
+                "description": ""
+            }
+        ],
+        "DESSERT": [
+            {
+                "dish": "BROWNIES",
+                "price": 139,
+                "description": "s vanilkovou zmrzlinou, šlehačkou, přelitý horkou čokoládou"
+            },
+            {
+                "dish": "CHEESE CAKE",
+                "price": 99,
+                "description": "s kopečkem vanilkové zmrzliny, šlehačkou, mandlemi a skořicovým cukrem"
+            },
+            {
+                "dish": "CHURROS",
+                "price": 149,
+                "description": "křupavé odpalované mexické tyčinky obalované ve skořicovém cukru se zakysanou smetanou přelité karamelem"
+            }
+        ]
+    },
+    "denni": {}
+}

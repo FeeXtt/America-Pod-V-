@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <>
-      <maincontent className="flex flex-col min-h-screen font-mate ">
+      <div className="flex flex-col font-mate min-h-screen ">
         <NavBar />
         <ImageCard
           src={BugerImg}
@@ -39,7 +39,7 @@ export default function Home() {
       
         
         <Footer />
-      </maincontent>
+      </div>
 
     </>
   );
