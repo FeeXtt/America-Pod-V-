@@ -1,0 +1,242 @@
+{
+  "Interiér": [
+    {
+      "id": 1,
+      "path": "./src/pages/Galerie/Photos/Interier/interier1.jpg"
+    },
+    {
+      "id": 2,
+      "path": "./src/pages/Galerie/Photos/Interier/interier2.jpg"
+    },
+    {
+      "id": 3,
+      "path": "./src/pages/Galerie/Photos/Interier/interier3.jpg"
+    },
+    {
+      "id": 4,
+      "path": "./src/pages/Galerie/Photos/Interier/interier4.jpg"
+    },
+    {
+      "id": 5,
+      "path": "./src/pages/Galerie/Photos/Interier/interier5.jpg"
+    },
+    {
+      "id": 6,
+      "path": "./src/pages/Galerie/Photos/Interier/interier6.jpg"
+    },
+    {
+      "id": 7,
+      "path": "./src/pages/Galerie/Photos/Interier/interier7.jpg"
+    },
+    {
+      "id": 8,
+      "path": "./src/pages/Galerie/Photos/Interier/interier8.jpg"
+    },
+    {
+      "id": 9,
+      "path": "./src/pages/Galerie/Photos/Interier/interier9.jpg"
+    },
+    {
+      "id": 10,
+      "path": "./src/pages/Galerie/Photos/Interier/interier10.jpg"
+    },
+    {
+      "id": 11,
+      "path": "./src/pages/Galerie/Photos/Interier/interier11.jpg"
+    },
+    {
+      "id": 12,
+      "path": "./src/pages/Galerie/Photos/Interier/interier12.jpg"
+    },
+    {
+      "id": 13,
+      "path": "./src/pages/Galerie/Photos/Interier/interier13.jpg"
+    },
+    {
+      "id": 14,
+      "path": "./src/pages/Galerie/Photos/Interier/interier14.jpg"
+    },
+    {
+      "id": 15,
+      "path": "./src/pages/Galerie/Photos/Interier/interier15.jpg"
+    },
+    {
+      "id": 16,
+      "path": "./src/pages/Galerie/Photos/Interier/interier16.jpg"
+    }
+  ],
+
+  "Jídla": [
+    {
+      "id": 1,
+      "path": "./src/pages/Galerie/Photos/Jidla/jidla1.jpg"
+    },
+    {
+      "id": 2,
+      "path": "./src/pages/Galerie/Photos/Jidla/jidla2.jpg"
+    },
+    {
+      "id": 3,
+      "path": "./src/pages/Galerie/Photos/Jidla/jidla3.jpg"
+    },
+    {
+      "id": 4,
+      "path": "./src/pages/Galerie/Photos/Jidla/jidla4.jpg"
+    },
+    {
+      "id": 5,
+      "path": "./src/pages/Galerie/Photos/Jidla/jidla5.jpg"
+    },
+    {
+      "id": 6,
+      "path": "./src/pages/Galerie/Photos/Jidla/jidla6.jpg"
+    },
+    {
+      "id": 7,
+      "path": "./src/pages/Galerie/Photos/Jidla/jidla7.jpg"
+    },
+    {
+      "id": 8,
+      "path": "./src/pages/Galerie/Photos/Jidla/jidla8.jpg"
+    },
+    {
+      "id": 9,
+      "path": "./src/pages/Galerie/Photos/Jidla/jidla9.jpg"
+    },
+    {
+      "id": 10,
+      "path": "./src/pages/Galerie/Photos/Jidla/jidla10.jpg"
+    },
+    {
+      "id": 11,
+      "path": "./src/pages/Galerie/Photos/Jidla/jidla11.jpg"
+    },
+    {
+      "id": 12,
+      "path": "./src/pages/Galerie/Photos/Jidla/jidla12.jpg"
+    },
+    {
+      "id": 13,
+      "path": "./src/pages/Galerie/Photos/Jidla/jidla13.jpg"
+    },
+    {
+      "id": 14,
+      "path": "./src/pages/Galerie/Photos/Jidla/jidla14.jpg"
+    },
+    {
+      "id": 15,
+      "path": "./src/pages/Galerie/Photos/Jidla/jidla15.jpg"
+    },
+    {
+      "id": 16,
+      "path": "./src/pages/Galerie/Photos/Jidla/jidla16.jpg"
+    },
+    {
+      "id": 17,
+      "path": "./src/pages/Galerie/Photos/Jidla/jidla17.jpg"
+    }
+  ],
+
+  "Akce": [
+    {
+      "id": 1,
+      "path": "./src/pages/Galerie/Photos/Akce/akce1.jpg"
+    },
+    {
+      "id": 2,
+      "path": "./src/pages/Galerie/Photos/Akce/akce2.jpg"
+    },
+    {
+      "id": 3,
+      "path": "./src/pages/Galerie/Photos/Akce/akce3.jpg"
+    },
+    {
+      "id": 4,
+      "path": "./src/pages/Galerie/Photos/Akce/akce4.jpg"
+    },
+    {
+      "id": 5,
+      "path": "./src/pages/Galerie/Photos/Akce/akce5.jpg"
+    },
+    {
+      "id": 6,
+      "path": "./src/pages/Galerie/Photos/Akce/akce6.jpg"
+    },
+    {
+      "id": 7,
+      "path": "./src/pages/Galerie/Photos/Akce/akce7.jpg"
+    },
+    {
+      "id": 8,
+      "path": "./src/pages/Galerie/Photos/Akce/akce8.jpg"
+    },
+    {
+      "id": 9,
+      "path": "./src/pages/Galerie/Photos/Akce/akce9.jpg"
+    },
+    {
+      "id": 10,
+      "path": "./src/pages/Galerie/Photos/Akce/akce10.jpg"
+    },
+    {
+      "id": 11,
+      "path": "./src/pages/Galerie/Photos/Akce/akce11.jpg"
+    },
+    {
+      "id": 12,
+      "path": "./src/pages/Galerie/Photos/Akce/akce12.jpg"
+    },
+    {
+      "id": 13,
+      "path": "./src/pages/Galerie/Photos/Akce/akce13.jpg"
+    },
+    {
+      "id": 14,
+      "path": "./src/pages/Galerie/Photos/Akce/akce14.jpg"
+    },
+    {
+      "id": 15,
+      "path": "./src/pages/Galerie/Photos/Akce/akce15.jpg"
+    },
+    {
+      "id": 16,
+      "path": "./src/pages/Galerie/Photos/Akce/akce16.jpg"
+    },
+    {
+      "id": 17,
+      "path": "./src/pages/Galerie/Photos/Akce/akce17.jpg"
+    },
+    {
+      "id": 18,
+      "path": "./src/pages/Galerie/Photos/Akce/akce18.jpg"
+    },
+    {
+      "id": 19,
+      "path": "./src/pages/Galerie/Photos/Akce/akce19.jpg"
+    },
+    {
+      "id": 20,
+      "path": "./src/pages/Galerie/Photos/Akce/akce20.jpg"
+    },
+    {
+      "id": 21,
+      "path": "./src/pages/Galerie/Photos/Akce/akce21.jpg"
+    },
+    {
+      "id": 22,
+      "path": "./src/pages/Galerie/Photos/Akce/akce22.jpg"
+    },
+    {
+      "id": 23,
+      "path": "./src/pages/Galerie/Photos/Akce/akce23.jpg"
+    },
+    {
+      "id": 24,
+      "path": "./src/pages/Galerie/Photos/Akce/akce24.jpg"
+    },
+    {
+      "id": 25,
+      "path": "./src/pages/Galerie/Photos/Akce/akce25.jpg"
+    }
+  ]
+}
