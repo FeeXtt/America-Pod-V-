@@ -7,6 +7,9 @@ import AboutUsCard from "../../components/AboutUsCard/AboutUsCard";
 import Carousel from "../../components/Carousel/Carousel";
 import TwoCards from "../../components/TwoCards/TwoCards";
 import ImgBGCard from "../../components/ImgBGCard/ImgBGCard";
+import GalerieImg1 from "./galerie1.jpg"
+import GalerieImg2 from "./galerie2.jpg"
+import ONasImg from "./ONasImg.jpg"
 
 
 export default function Home() {
@@ -19,6 +22,7 @@ export default function Home() {
           src={BugerImg}
           textpt1={"Vítejte na stránkách restaurace"}
           textpt2={"America Pod Věží"}
+
           border={"border-b-2 border-gray-400"}
           translation={"2xl:-translate-y-48 xl:-translate-y-24 md:-translate-y-20 "}
           translationAdjustment={"2xl:mt-48 xl:mt-24 md:mt-20"}
@@ -28,16 +32,27 @@ export default function Home() {
 
         <div className="max-w-screen-xl mx-auto font-mate "> 
           <AboutUsCard 
-          imgSrc={Vycep}
-          headline={"O nas"}
-          text={"Vítejte na stránkách restaurace Amerika Pod Věží"} />
+          imgSrc={ONasImg}
+          headline={"O nás"}
+          text={"Stylová restaurace s americkou BBQ kuchyní nabízí burgery, steaky, pečená žebírka, křidýlka, ryby, saláty, dezerty a především naše domácí hranolky. Každý si u nás přijde na své – jak milovníci masa, tak vegetariáni. "} />
           </div>
-          <ImgBGCard/>
+          <ImgBGCard
+          headline={"Zobrezte si celé menu!"}
+          text={"Zapomeňte na vše, co jste si mysleli,"}
+          text2={" že víte o hamburgerech a hranolkách."}
+          link={"/menu"}
+          button={"Menu"}
+          />
           <div className="max-w-screen-xl mx-auto font-mate "> 
           <TwoCards 
-          imgSrc={Vycep}
-          headline={"O nas"}
-          text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt laborum, similique minus modi veniam placeat autem adipisci voluptatum consectetur, necessitatibus voluptas voluptate inventore quod atque dolorum repudiandae ex nemo? Quas."}  />
+          imgSrc={GalerieImg1}
+          headline={"Galerie"}
+          text={"Zhlédněte naše překrásné prostory ve sklepení pod věží u hradu."}
+          link={"/galerie"}
+          button={"galerie"}
+
+          imgSrc2={GalerieImg2}
+          />
         </div>
         
       
