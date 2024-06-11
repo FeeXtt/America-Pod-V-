@@ -20,7 +20,8 @@ export default function Error() {
             textpt2="Omlouáme se 🍔"
             link = "/"
             linkText="Přejít na Úvodní Stránku"
-            h="h-2/3"
+            fontSize={"text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl"}
+            fontSize2={"text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl"}
           />
         </div>
       </div>
