@@ -19,7 +19,6 @@ export default function Galerie() {
           src={BackgroundImage}
           textpt1="Kontakt"
           h="h-80"
-          border={"border-b-2 border-gray-400"}
           fontSize={"text-5xl"}
           blurPadding={
             "px-28 py-14 md:py-12 md:px-10 lg:py-14 lg:px-12 xl:py-16 xl:px-14 2xl:py-16 2xl:px-16"
@@ -27,23 +26,23 @@ export default function Galerie() {
         />
 
         <div className="md:w-2/3 mx-auto font-mate mt-10 ">
-          <div className="p-10 grid bg-slate-900 grid-cols-3 text-center text-2xl font-mate md:rounded-lg">
-            <div>
+          <div className="p-10 drop-shadow-element grid bg-slate-900 grid-cols-3 text-center text-2xl font-mate md:rounded-lg">
+            <div className="font-notable">
               Telefon
-              <div className="pt-6 text-3xl">+420 326 322 007</div>
+              <div className="pt-6 font-mate text-3xl">+420 326 322 007</div>
             </div>
 
-            <div>
+            <div className="font-notable">
               Rozvoz
-              <div className="pt-6 underline text-3xl">
+              <div className="pt-6 font-mate underline text-3xl">
                 <a href="https://www.foodora.cz/restaurant/iqu6/america-pod-vezi">
                   Foodora
                 </a>
               </div>
             </div>
-            <div>
-              Sociální Sítě
-              <div className="flex gap-4 justify-center pt-6">
+            <div className="font-notable">
+              Sociální Média
+              <div className="flex font-mate gap-4 justify-center pt-6">
                 <a href="https://www.facebook.com/America-POD-V%C4%9A%C5%BD%C3%8D-1587036434862535">
                   <img src={FacebookLogo} alt="Facebook" className=" max-h-8" />
                 </a>
@@ -54,10 +53,10 @@ export default function Galerie() {
             </div>
           </div>
 
-          <div className="mt-14 bg-slate-900 md:rounded-lg p-10">
-            <div className="col-span-2 text-center text-2xl">
+          <div className="mt-14 drop-shadow-element bg-slate-900 md:rounded-lg p-10">
+            <div className="col-span-2 font-notable text-center text-2xl">
               Adresa
-              <div className="text-3xl mt-3 mb-4">
+              <div className="text-3xl font-mate mt-3 mb-4">
                 Komenského náměstí 61 29301 Mladá Boleslav
               </div>
             </div>
@@ -67,9 +66,9 @@ export default function Galerie() {
             </div>
           </div>
 
-          <div className="mt-14 bg-slate-900 p-10 md:rounded-lg">
-            <div className="w-2/3 mx-auto flex flex-col justify-center text-center text-3xl ">
-              <div className="text-center mb-8">Platba</div>
+          <div className="my-14 drop-shadow-element bg-slate-900 p-10 md:rounded-lg">
+            <div className="w-2/3 mx-auto flex flex-col justify-center text-center text-2xl ">
+              <div className="text-center font-notable mb-8">Platba</div>
               <div className="flex flex-col md:flex-row">
                 <img
                   src={MoneyIcon}
@@ -92,7 +91,7 @@ export default function Galerie() {
 
 
           {/*Dát dohromady s Platbou do jednoho rámečku*/}
-          <div div className="my-14 bg-slate-900 p-10 md:rounded-lg text-center">
+          {/* <div div className="my-14 drop-shadow-element bg-slate-900 p-10 md:rounded-lg text-center">
             <div className="text-2xl">Recenze</div>
             <div className="flex underline text-3xl">
               <div className="mx-auto">
@@ -106,7 +105,7 @@ export default function Galerie() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <Footer />
