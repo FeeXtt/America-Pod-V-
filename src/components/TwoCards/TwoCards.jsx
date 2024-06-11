@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function TwoCards(props) {
   return (
     <>
-      <section className="grid md:grid-cols-2 gap-8  md:gap-8 lg:gap-12 xl:gap-16 2xl:gap-20 items-center sm:mt-20 sm:mb-20 mt-3 mb-0">
+      <section className="grid md:grid-cols-2 gap-8  mx-5 md:gap-8 lg:gap-12 xl:gap-16 2xl:gap-20 items-center sm:mt-20 sm:mb-20 mt-10 mb-10">
         <div className="grid md:mb-28 md:px-0 sm:px-20 text-center sm:text-left px-0 gap-3">
           <div className="lg:text-6xl text-5xl font-semibold">
             {props.headline}
@@ -12,7 +12,7 @@ export default function TwoCards(props) {
 
           <div className={`relative`}>
             <img
-              className={`object-cover sm:rounded-lg w-full aspect-[16/9]`}
+              className={`object-cover rounded-lg w-full aspect-[16/9]`}
               src={props.imgSrc}
               alt="burger img"
             />
@@ -32,11 +32,11 @@ export default function TwoCards(props) {
           </div>
         </div>
 
-        <div className="grid md:mt-28 md:px-0 sm:px-20 text-center sm:text-left px-0 gap-3">
+        <div className=" md:mt-28 md:px-0 sm:px-20 text-center sm:text-left px-0  gap-3 ">
 
-          <div className={`relative`}>
+          <div className={`relative `}>
             <img
-              className={`object-cover sm:rounded-lg w-full aspect-[4/3]`}
+              className={`object-cover rounded-lg w-full aspect-[4/3]`}
               src={props.imgSrc2}
               alt="burger img"
             />
