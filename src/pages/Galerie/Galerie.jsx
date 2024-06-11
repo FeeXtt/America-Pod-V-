@@ -3,7 +3,7 @@ import Footer from "../../components/Footer/Footer";
 import ImageCard from "../../components/ImageCard/ImageCard";
 import NavBar from "../../components/NavBar/NavBar";
 import "flowbite";
-import BugerImg from "../Home/burger.png";
+import BackgroundImage from "./BGgalerie.jpg";
 import photosData from "./photos.json";
 
 const navMenus = [
@@ -33,10 +33,12 @@ export default function Galerie() {
       <NavBar />
 
       <ImageCard
-        src={BugerImg}
+        src={BackgroundImage}
         textpt1="Galerie"
         h="h-80"
-        border={"border-b-2 border-white"}
+        border={"border-b-2 border-gray-400"}
+        fontSize={"text-5xl"}
+        blurPadding={"px-28 py-14 md:py-12 md:px-10 lg:py-14 lg:px-12 xl:py-16 xl:px-14 2xl:py-16 2xl:px-16"}
       />
 
       <div className="bg-slate-800 ">
@@ -86,9 +88,9 @@ export default function Galerie() {
       </div>
 
       <div className=" w-2/3 mx-auto">
-        {" "}
+
         {/* ratio na fotky 3:4 pls*/}
-        <div className=" grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 col-span-full gap-4 row-end-auto ">
+        <div className=" grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 col-span-full gap-4">
           {Object.keys(photosData).map((items) => {
             if (items === activeTab) {
               return photosData[items].map((photo, i) => {

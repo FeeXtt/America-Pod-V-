@@ -1,7 +1,6 @@
 import Map from "./Map/Map";
 import FacebookLogo from "./FacebookLogo.png";
 import InstagramLogo from "./InstagramLogo.png";
-import "./Footer.css";
 
 export default function Footer() {
   return (
@@ -61,7 +60,7 @@ export default function Footer() {
           </div>
 
           <div className="lg:w-2/5 p-5 max-w-full z-0">
-            <Map />
+            <Map h={"h-56"} />
           </div>
         </div>
 
