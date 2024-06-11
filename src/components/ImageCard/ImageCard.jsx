@@ -9,7 +9,7 @@ export default function ImageCard(props) {
   }, []);
 
   return (
-    <div className={`relative font-mate bg-black ${props.border}`}>
+    <div className={`relative font-mate bg-black ${props.border} drop-shadow-element`}>
       <img
         className={`object-cover opacity-60 w-full ${props.h}`}
         src={props.src}

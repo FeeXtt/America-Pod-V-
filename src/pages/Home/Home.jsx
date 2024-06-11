@@ -22,7 +22,6 @@ export default function Home() {
           src={BugerImg}
           textpt1={"Vítejte na stránkách restaurace"}
           textpt2={"America Pod Věží"}
-          border={"border-b-2 border-white"}
         />
 
         <div className="max-w-screen-xl mx-auto font-mate "> 
@@ -32,7 +31,7 @@ export default function Home() {
           text={"Stylová restaurace s americkou BBQ kuchyní nabízí burgery, steaky, pečená žebírka, křidýlka, ryby, saláty, dezerty a především naše domácí hranolky. Každý si u nás přijde na své – jak milovníci masa, tak vegetariáni. "} />
           </div>
           <ImgBGCard
-          headline={"Zobrezte si celé menu!"}
+          headline={"Zobrazte si celé menu!"}
           text={"Zapomeňte na vše, co jste si mysleli,"}
           text2={" že víte o hamburgerech a hranolkách."}
           link={"/menu"}
@@ -42,7 +41,7 @@ export default function Home() {
           <TwoCards 
           imgSrc={GalerieImg1}
           headline={"Galerie"}
-          text={"Zhlédněte naše překrásné prostory ve sklepení pod věží u hradu."}
+          text={"Zhlédněte naše překrásné prostory ve sklepení pod věží u hradu. Užijte si jedinečnou atmosféru, kde se setkává historie s moderním komfortem."}
           link={"/galerie"}
           button={"galerie"}
 

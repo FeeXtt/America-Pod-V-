@@ -15,14 +15,14 @@ export default function JidelniListek() {
     <div className="text-white">
       <NavBar />
       
-      <ImageCard src={BugerImg} textpt1="Menu" h="h-80" border={"border-b-2 border-gray-700"}/>
+      <ImageCard src={BugerImg} textpt1="Menu" h="h-80"/>
       
       <div className="bg-slate-800">
         <ul className="flex justify-center -mb-px font-notable" id="default-tab" data-tabs-toggle="#default-tab-content" role="tablist">
             {navMenus.map((item, index) => (
               <li key={index} className="me-2" role="presentation">
                 <button 
-                  className={`inline-block p-4 text-lg transform hover:drop-shadow-slate900 hover:-translate-y-0.5 hover:-translate-x-0.5 ${activeTab === item[1] ? 'transform drop-shadow-slate900 -translate-y-0.5 -translate-x-0.5' : '' }`} 
+                  className={`transition duration-150 ease-in-out inline-block p-4 text-lg transform hover:drop-shadow-slate900 text-white hover:text-white hover:-translate-y-0.25 hover:-translate-x-0.25 ${activeTab === item[1] ? 'transform drop-shadow-slate900 -translate-y-0.25 -translate-x-0.25' : '' }`} 
                   onClick={() => setActiveTab(item[1])}
                   id={item[1] + "-tab"} 
                   data-tabs-target={"#" + item[1]} 

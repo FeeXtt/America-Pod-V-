@@ -36,7 +36,6 @@ export default function Galerie() {
         src={BugerImg}
         textpt1="Galerie"
         h="h-80"
-        border={"border-b-2 border-white"}
       />
 
       <div className="bg-slate-800 ">
@@ -49,7 +48,7 @@ export default function Galerie() {
           {navMenus.map((item, index) => (
             <li key={index} className="text-lg me-2" role="presentation">
               <button
-                className={`inline-block p-4 text-lg transform hover:drop-shadow-slate900 hover:-translate-y-0.25 hover:-translate-x-0.25 text-white ${
+                className={`transition duration-150 ease-in-out inline-block p-4 text-lg transform hover:drop-shadow-slate900 hover:-translate-y-0.25 hover:-translate-x-0.25 text-white ${
                   activeTab === item[1]
                     ? "transform drop-shadow-slate900 -translate-y-0.25 -translate-x-0.25"
                     : ""
@@ -97,7 +96,7 @@ export default function Galerie() {
                     key={i}
                     src={`${photo.path}`}
                     alt={`Photo ${photo.id}`}
-                    className="hover:cursor-pointer hover:opacity-70"
+                    className="transition duration-150 ease-in-out hover:scale-105 rounded-xl hover:cursor-pointer hover:drop-shadow-element"
                     onClick={() => openModal(photo.path, `Photo ${photo.id}`)}
                   />
                 );

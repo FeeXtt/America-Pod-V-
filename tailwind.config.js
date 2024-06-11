@@ -13,6 +13,9 @@ export default {
 
   theme: {
     extend: {
+      transitionDuration: {
+        '2000': '2000ms',
+      },
       height: {
         '128': '32rem',
         '256': '42rem',
@@ -26,6 +29,7 @@ export default {
       dropShadow: {
         'slate800': '5px 5px 0 rgba(30, 41, 59, 1)',
         'slate900': '5px 5px 0 rgba(15, 23, 42, 1)',
+        'element': '0 0 12px rgba(15, 23, 42, 1)',
       },
       translate:{
         '0.25': '0.06rem'

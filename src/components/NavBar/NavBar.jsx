@@ -31,7 +31,7 @@ export default function NavBar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <nav className="font-notable bg-red-900 sticky top-0 z-50">
+    <nav className="font-notable bg-red-900 sticky top-0 z-50 drop-shadow-element">
       <div className="md:flex items-center justify-between max-w-screen-xl mx-auto p-6">
 
           <div className="fixed bg-red-900 invisible md:visible rounded-b-xl" style={logoStyle}>
