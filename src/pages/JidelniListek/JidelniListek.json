@@ -598,5 +598,114 @@
             }
         ]
     },
-    "denni": {}
+    "denni": {
+        "SALADS": [
+            {
+                "dish": "CAESAR SALAD",
+                "price": 179,
+                "description": "Římský salát s grilovaným kuřecím masem, slaninou, parmazánem a dresinkem Cézar"
+            },
+            {
+                "dish": "GRILLED SALMON SALAD",
+                "price": 209,
+                "description": "Grilovaný losos na směsi zeleniny s kapary, cherry rajčaty, hoblinky parmazánu a balzamikovým dresinkem"
+            }
+        ],
+        "SANDWICH": [
+            {
+                "dish": "CHICKEN SANDWICH",
+                "price": 219,
+                "description": "Grilované kuřecí prsíčko s ledovým salátem, rajčaty a majonézou v celozrnném chlebu"
+            },
+            {
+                "dish": "BACON SANDWICH",
+                "price": 199,
+                "description": "Třípatrový sendvič s křupavou slaninou, ledovým salátem, rajčaty a majonézou na opečeném bílém chlebu"
+            }
+        ],
+        "APPETIZER": [
+            {
+                "dish": "ONION RINGS",
+                "price": 99,
+                "description": "Křupavé cibulové kroužky podávané s BBQ omáčkou"
+            },
+            {
+                "dish": "FRIED MOZZARELLA STICKS",
+                "price": 129,
+                "description": "Zlatavě smažené mozzarella kouře podávané s marinárou"
+            }
+        ],
+        "AMERICA BURGERS": [
+            {
+                "dish": "CLASSIC CHEESEBURGER",
+                "price": 199,
+                "description": "Hovězí burger s americkým sýrem, ledovým salátem, rajčetem, cibulí a okurkami"
+            },
+            {
+                "dish": "BACON AVOCADO BURGER",
+                "price": 219,
+                "description": "Hovězí burger s křupavou slaninou, avokádem, ledovým salátem, rajčetem a chipotle majonézou"
+            }
+        ],
+        "BBQ": [
+            {
+                "dish": "BBQ RIBS",
+                "price": 249,
+                "description": "Pomalým vařená BBQ žebírka podávaná s coleslaw salátem a kukuřičným chlebem"
+            },
+            {
+                "dish": "GRILLED BBQ CHICKEN",
+                "price": 189,
+                "description": "Grilované kuřecí prsíčko potřené BBQ omáčkou, podávané s fazolemi a kukuřicí na kole"
+            }
+        ],
+        "STEAK": [
+            {
+                "dish": "RIBEYE STEAK",
+                "price": 299,
+                "description": "Šťavnatý ribeye steak grilovaný na dokonalost, podávaný s bramborovou kaší a grilovaným chřestem"
+            },
+            {
+                "dish": "FILET MIGNON",
+                "price": 349,
+                "description": "Jemná svíčková steak s houbovou omáčkou, podávaná s restovanými brambory a fazolemi"
+            }
+        ],
+        "SUPPLEMENTS": [
+            {
+                "dish": "GARLIC MASHED POTATOES",
+                "price": 59,
+                "description": ""
+            },
+            {
+                "dish": "GRILLED VEGETABLES",
+                "price": 79,
+                "description": ""
+            }
+        ],
+        "DRESSINGS - INGREDIENT": [
+            {
+                "dish": "HOMEMADE RANCH DRESSING",
+                "price": 49,
+                "description": ""
+            },
+            {
+                "dish": "CHIPOTLE MAYONNAISE",
+                "price": 39,
+                "description": ""
+            }
+        ],
+        "DESSERT": [
+            {
+                "dish": "CHOCOLATE LAVA CAKE",
+                "price": 159,
+                "description": "Teplý čokoládový koláč s roztaveným čokoládovým centrem, podávaný s vanilkovou zmrzlinou"
+            },
+            {
+                "dish": "NEW YORK CHEESECAKE",
+                "price": 129,
+                "description": "Klasický cheesecake New York style s malinovou omáčkou"
+            }
+        ]
+    }
 }

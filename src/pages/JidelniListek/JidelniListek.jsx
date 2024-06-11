@@ -19,42 +19,32 @@ export default function JidelniListek() {
     <div className="text-white">
       <NavBar />
 
-      <ImageCard
+    <ImageCard
         src={BackgroundImage}
         textpt1="Menu"
         h="h-80"
-        border={"border-b-2 border-gray-400"}
         fontSize={"text-5xl"}
         blurPadding={"px-28 py-14 md:py-12 md:px-10 lg:py-14 lg:px-12 xl:py-16 xl:px-14 2xl:py-16 2xl:px-16"}
-      />
-
-      <div className="bg-slate-800">
-        <ul
-          className="flex justify-center -mb-px font-notable"
-          id="default-tab"
-          data-tabs-toggle="#default-tab-content"
-          role="tablist"
-        >
-          {navMenus.map((item, index) => (
-            <li key={index} className="me-2" role="presentation">
-              <button
-                className={`inline-block p-4 text-lg transform hover:drop-shadow-slate900 hover:-translate-y-0.5 hover:-translate-x-0.5 text-white ${
-                  activeTab === item[1]
-                    ? "transform drop-shadow-slate900 -translate-y-0.5 -translate-x-0.5"
-                    : ""
-                }`}
-                onClick={() => setActiveTab(item[1])}
-                id={item[1] + "-tab"}
-                data-tabs-target={"#" + item[1]}
-                type="button"
-                role="tab"
-                aria-controls={item[1]}
-                aria-selected={activeTab === item[1]}
-              >
-                {item[0]}
-              </button>
-            </li>
-          ))}
+    />
+    
+    <div className="bg-slate-800">
+        <ul className="flex justify-center -mb-px font-notable" id="default-tab" data-tabs-toggle="#default-tab-content" role="tablist">
+            {navMenus.map((item, index) => (
+              <li key={index} className="me-2" role="presentation">
+                <button 
+                  className={`transition duration-150 ease-in-out inline-block p-4 text-lg transform hover:drop-shadow-slate900 text-white hover:text-white hover:-translate-y-0.25 hover:-translate-x-0.25 ${activeTab === item[1] ? 'transform drop-shadow-slate900 -translate-y-0.25 -translate-x-0.25' : '' }`} 
+                  onClick={() => setActiveTab(item[1])}
+                  id={item[1] + "-tab"} 
+                  data-tabs-target={"#" + item[1]} 
+                  type="button" 
+                  role="tab" 
+                  aria-controls={item[1]} 
+                  aria-selected={activeTab === item[1]}
+                  >
+                  {item[0]}
+                </button>
+              </li>
+            ))}
         </ul>
       </div>
 
