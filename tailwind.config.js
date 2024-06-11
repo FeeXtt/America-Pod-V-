@@ -5,7 +5,7 @@
 export default {
   content: [
 
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{html,js,ts,jsx,tsx}",
     "./index.html",
     "./node_modules/flowbite/**/*.js",
   "./node_modules/tw-elements-react/dist/js/**/*.js"],
@@ -45,5 +45,11 @@ export default {
   plugins: [
     require('flowbite/plugin'),
     require("tw-elements-react/dist/plugin.cjs"),
+    require('tailwind-scrollbar')
   ],
+  variants: {
+    extend: {
+      scrollbar: ['rounded'], 
+    },
+  },
 }
